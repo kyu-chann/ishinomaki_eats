@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>Ishinomakieats</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+  </head>
+  <body>
+    <div class="main">
+      <input type="checkbox" id="check" />
+      <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+      </label>
+  
+      <div class="sidebar">
+        <header>title</header>
+        <ul>
+          <li>
+            <a href="#">About</a>
+          </li>
+        </ul>
+        <div class="notification is-danger is-light">
+          このサイトは石巻駅付近にある<br><strong>爆発的においしい</strong>食べ物を紹介するサイトです。
+        </div>
+      </div>
+      <section></section>
+      <div class="map">
+        <img id="modalOpen" class="button" src="/bomb1.png">
+        <div id="easyModal" class="modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1>店舗情報</h1>
+              <span class="modalClose"></span>
+            </div>
+            <div class="modal-body">
+              <p>[お店の名前]</p>
+              <p>[住所]</p>
+              <p>[電話番号]</p>
+              <br>
+              <p>写真一覧を表示</p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+<script src="main.js"></script>
+  </body>
+</html>
